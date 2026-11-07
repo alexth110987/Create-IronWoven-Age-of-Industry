@@ -1,12 +1,12 @@
 name: Forward beta tester applications to private review
 
 on:
+  issues:
+    types: [opened]
   push:
     branches: [main]
     paths:
       - ".github/workflows/forward-beta-applications.yml"
-  issues:
-    types: [opened]
 
 permissions:
   issues: write
@@ -17,7 +17,9 @@ concurrency:
 
 jobs:
   forward:
-    if: github.event_name == 'issues' && startsWith(github.event.issue.title, '[Beta Application]: ')
+    if: >-
+      github.event_name == 'issues' &&
+      startsWith(github.event.issue.title, '[Beta Application]: ')
     runs-on: ubuntu-24.04
     timeout-minutes: 3
     steps:
@@ -44,8 +46,7 @@ jobs:
               sys.exit("Missing Actions secret IRONWOVEN_PRIVATE_DISPATCH_URL.")
           parsed = urlsplit(dispatch_url)
           expected = "/repos/alexth110987/Create-IronWoven-Age-of-Industry-Private/dispatches"
-          if (parsed.scheme != "https" or parsed.netloc != "api.github.com"
-                  or parsed.query or parsed.fragment or parsed.path != expected):
+          if parsed.scheme != "https" or parsed.netloc != "api.github.com" or parsed.query or parsed.fragment or parsed.path != expected:
               sys.exit("Private dispatch URL does not point to the expected private repository.")
 
           payload = {
@@ -86,7 +87,7 @@ jobs:
           import json
           import os
           import urllib.request
-          payload = {"body": "**Application forwarding needs maintainer attention.** Your application remains open and has not been accepted or declined. The maintainer will check the private review connection and arrange a manual review."}
+          payload = {"body": "**Application forwarding needs maintainer attention.** Your application remains open, but the private review item could not be created automatically. The maintainer will check the connection and arrange a manual review."}
           request = urllib.request.Request(
               f"https://api.github.com/repos/{os.environ['SOURCE_REPOSITORY']}/issues/{os.environ['ISSUE_NUMBER']}/comments",
               data=json.dumps(payload).encode("utf-8"), method="POST",
