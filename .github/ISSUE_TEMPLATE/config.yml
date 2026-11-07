@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Beta tester? Submit a functional test result
+    url: https://github.com/alexth110987/Create-IronWoven-Age-of-Industry-Beta/issues/new?template=functional-test-report.yml
+    about: Use the separate beta-tester form to record one specific test action.
+  - name: Read the getting-started guide
+    url: https://github.com/alexth110987/Create-IronWoven-Age-of-Industry/blob/main/GETTING_STARTED.md
+    about: Check release availability and supported game requirements before installing.

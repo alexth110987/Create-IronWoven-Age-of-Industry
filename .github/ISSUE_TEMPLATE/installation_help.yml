@@ -1,0 +1,62 @@
+name: Installation help
+description: Ask for help with installing or starting an official public release.
+title: "[Install Help]: "
+body:
+  - type: markdown
+    attributes:
+      value: |
+        There is no downloadable public release yet. If you are preparing for a future release, say so below.
+        Never share account passwords, access tokens, or private server details.
+  - type: input
+    id: pack-version
+    attributes:
+      label: Pack version / release
+      placeholder: "Not yet released / exact version"
+    validations:
+      required: true
+  - type: dropdown
+    id: operating-system
+    attributes:
+      label: Operating system
+      options:
+        - Windows 11
+        - Windows 10
+        - Linux
+        - Other
+        - Not sure
+    validations:
+      required: true
+  - type: dropdown
+    id: stage
+    attributes:
+      label: Where are you stuck?
+      options:
+        - Finding the official download
+        - Installing the CurseForge profile
+        - Starting Minecraft
+        - Joining a server
+        - Setting up a dedicated server
+        - Other
+    validations:
+      required: true
+  - type: textarea
+    id: problem
+    attributes:
+      label: What is happening?
+      description: Include the exact error message if one is shown.
+    validations:
+      required: true
+  - type: textarea
+    id: tried
+    attributes:
+      label: What have you tried already?
+      description: List the steps you have already taken.
+    validations:
+      required: false
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Relevant screenshot or short error excerpt
+      description: Remove account names, private paths, IP addresses, and other personal details.
+    validations:
+      required: false

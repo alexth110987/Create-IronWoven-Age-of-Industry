@@ -1,0 +1,81 @@
+name: Bug or crash report
+description: Report a problem that you can reproduce while playing the public pack.
+title: "[Player Bug]: "
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Before submitting, check Known Issues and search existing issues.
+        Do not attach passwords, private IP addresses, personal data, or full world saves.
+  - type: input
+    id: pack-version
+    attributes:
+      label: Pack version / release
+      description: Enter the exact release name. If you are not using a public release, explain that here.
+      placeholder: "Not yet released / exact version"
+    validations:
+      required: true
+  - type: input
+    id: minecraft-version
+    attributes:
+      label: Minecraft version
+      placeholder: "1.21.1"
+    validations:
+      required: true
+  - type: input
+    id: neoforge-version
+    attributes:
+      label: NeoForge version
+      placeholder: "21.1.265"
+    validations:
+      required: true
+  - type: dropdown
+    id: environment
+    attributes:
+      label: Where did this happen?
+      options:
+        - Single-player
+        - Dedicated server
+        - Client joining a server
+        - Not sure
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: What did you expect to happen?
+    validations:
+      required: true
+  - type: textarea
+    id: actual
+    attributes:
+      label: What happened instead?
+    validations:
+      required: true
+  - type: textarea
+    id: reproduce
+    attributes:
+      label: Steps to reproduce
+      description: List the steps in order so someone else can try them.
+      placeholder: |
+        1. Start the game...
+        2. Open...
+        3. ...
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Relevant error text or short log excerpt
+      description: Optional. Remove usernames, personal paths, private IP addresses, tokens, and other sensitive information.
+    validations:
+      required: false
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: Before submitting
+      options:
+        - label: I checked Known Issues and searched existing reports.
+          required: true
+        - label: I removed personal and sensitive information from my attachments.
+          required: true

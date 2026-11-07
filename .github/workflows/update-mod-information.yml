@@ -1,0 +1,69 @@
+name: Update CurseForge mod information
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "0 9 * * 1"
+  push:
+    branches: [main]
+    paths:
+      - "data/curseforge-manifest.json"
+      - "scripts/**"
+      - "docs/MOD_CATALOGUE_AUTOMATION.md"
+      - ".github/workflows/update-mod-information.yml"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: update-mod-information
+  cancel-in-progress: false
+
+jobs:
+  refresh:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 15
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+
+      - name: Set up Python
+        uses: actions/setup-python@ece7cb06caefa5fff74198d8649806c4678c61a1 # v6.3.0
+        with:
+          python-version: "3.12"
+
+      - name: Test catalogue updater
+        run: python -m unittest discover -s scripts/tests -v
+
+      - name: Check catalogue source is configured
+        id: readiness
+        env:
+          CURSEFORGE_API_KEY: ${{ secrets.CURSEFORGE_API_KEY }}
+        run: |
+          if [[ -f data/curseforge-manifest.json && -n "$CURSEFORGE_API_KEY" ]]; then
+            echo "ready=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "ready=false" >> "$GITHUB_OUTPUT"
+            echo "Catalogue refresh is not active yet."
+            [[ -f data/curseforge-manifest.json ]] || echo "Missing approved manifest: data/curseforge-manifest.json"
+            [[ -n "$CURSEFORGE_API_KEY" ]] || echo "Missing Actions secret: CURSEFORGE_API_KEY"
+          fi
+
+      - name: Refresh mod information
+        if: steps.readiness.outputs.ready == 'true'
+        env:
+          CURSEFORGE_API_KEY: ${{ secrets.CURSEFORGE_API_KEY }}
+        run: python scripts/update_mod_information.py
+
+      - name: Commit catalogue when changed
+        if: steps.readiness.outputs.ready == 'true'
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add MOD_INFORMATION.md
+          if git diff --cached --quiet; then
+            echo "Mod information is already up to date."
+            exit 0
+          fi
+          git commit -m "docs: refresh CurseForge mod information"
+          git push

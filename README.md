@@ -25,9 +25,7 @@ Create IronWoven: Age of Industry is an industrial and steampunk Minecraft modpa
 
 ## Current project status
 
-<badge>In development</badge>
-
-The modpack is still being developed and tested. **There is no downloadable public release yet.** This repository is the public home for general players. Installation and download instructions will be added when a public release is approved.
+**Status: In development.** There is no downloadable public release yet. This repository is the public home for general players. Installation and download instructions will be added when a public release is approved.
 
 | Component | Current target |
 |---|---|
@@ -53,7 +51,7 @@ Before opening an issue, please check [Known issues](KNOWN_ISSUES.md) and [Suppo
 
 - [Main public project home](https://github.com/alexth110987/Create-IronWoven-Age-of-Industry)
 - [Beta-tester hub](https://github.com/alexth110987/Create-IronWoven-Age-of-Industry-Beta)
-- [CurseForge download page](GETTING_STARTED.md) — public download not available yet
+- [CurseForge download information](GETTING_STARTED.md) — public download not available yet
 - [Support and troubleshooting](SUPPORT.md)
 - [Security and responsible reporting](SECURITY.md)
 
