@@ -35,4 +35,4 @@ Windows is the current development and test environment. Linux server support is
 
 The project is in development. There is no downloadable public release yet. The public pages will be updated as player-facing information and release details become available.
 
-Use the [main issue tracker](https://github.com/alexth110987/Create-IronWoven-Age-of-Industry/issues) for ordinary player feedback. Beta testers should use the separate [beta-tester hub](https://github.com/alexth110987/Create-IronWoven-Age-of-Industry-Beta).
+Use the [main issue tracker](https://github.com/alexth110987/Create-IronWoven-Age-of-Industry/issues) for ordinary player feedback. To request beta access, complete the [beta tester application form](https://github.com/alexth110987/Create-IronWoven-Age-of-Industry-Beta/issues/new?template=beta_application.yml). Approved testers will use the separate [beta-tester hub](https://github.com/alexth110987/Create-IronWoven-Age-of-Industry-Beta).

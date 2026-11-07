@@ -24,9 +24,11 @@ Linux server support is planned but has not yet been tested. Windows is the curr
 
 Use the [main public issue tracker](https://github.com/alexth110987/Create-IronWoven-Age-of-Industry/issues). Choose the bug report or installation help form and include clear steps.
 
-## Can anyone join beta testing?
+## How do I apply to become a beta tester?
 
-No. Beta participation is limited to people who receive an invitation or have an application approved by the project maintainer. The public beta repository is visible, but viewing it does not automatically grant access to test builds or testing activities.
+Beta access is limited. Complete the [beta tester application form](https://github.com/alexth110987/Create-IronWoven-Age-of-Industry-Beta/issues/new?template=beta_application.yml). Applications are reviewed manually, and submitting the form does not automatically grant access. The maintainer will respond to applications through GitHub.
+
+There is not yet a downloadable public beta release.
 
 ## How is beta testing different from normal player support?
 
