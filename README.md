@@ -1,6 +1,6 @@
 # Create IronWoven: Age of Industry
 
-![Create IronWoven: Age of Industry](https://raw.githubusercontent.com/alexth110987/Create-IronWoven-Age-of-Industry-Beta/main/assets/Ironwoven_%20Age%20of%20Industry.v2.png)
+![Create IronWoven: Age of Industry](assets/Create-IronWoven-Social-Preview.jpg)
 
 **Build. Engineer. Explore. Transport. Automate.**
 
