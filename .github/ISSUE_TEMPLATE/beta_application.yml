@@ -1,0 +1,100 @@
+name: Beta tester application
+description: "Apply for a place in the Create IronWoven: Age of Industry beta testing group."
+title: "[Beta Application]: "
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you for your interest in testing Create IronWoven: Age of Industry.
+
+        **Please read before applying:**
+        - Beta access is limited. Applications are reviewed manually.
+        - Sending this application does not automatically grant access.
+        - There is not yet a downloadable public beta release. If approved, the maintainer will explain the next available testing step.
+        - This application is a public GitHub issue. Your answers will be visible to anyone who can view this repository.
+        - Do not include your real name, email address, phone number, passwords, private server IPs, or other personal/sensitive information.
+  - type: textarea
+    id: interest
+    attributes:
+      label: Why would you like to become a beta tester?
+      description: "Tell us what interests you about Create IronWoven: Age of Industry."
+      placeholder: "I am interested in testing the Create machinery, trains, automation..."
+    validations:
+      required: true
+  - type: textarea
+    id: experience
+    attributes:
+      label: Your Minecraft and modded Minecraft experience
+      description: "Have you played modded Minecraft before? Have you used Create or similar mods? Previous testing experience is welcome but not required."
+    validations:
+      required: true
+  - type: dropdown
+    id: platform
+    attributes:
+      label: Which platform can you currently test on?
+      options:
+        - Windows 11
+        - Windows 10
+        - Linux
+        - Windows and Linux
+        - Other
+        - Not sure yet
+    validations:
+      required: true
+  - type: checkboxes
+    id: test_areas
+    attributes:
+      label: What would you be interested in testing?
+      description: "Select any that interest you."
+      options:
+        - label: Create machinery, factories, and automation
+          required: false
+        - label: Trains, rails, and transport
+          required: false
+        - label: Create Aeronautics and aircraft
+          required: false
+        - label: Building, decoration, and construction
+          required: false
+        - label: World generation and exploration
+          required: false
+        - label: Multiplayer and dedicated-server testing
+          required: false
+        - label: Performance and troubleshooting
+          required: false
+  - type: dropdown
+    id: availability
+    attributes:
+      label: How much time could you usually spend testing?
+      options:
+        - Less than 1 hour per week
+        - 1–3 hours per week
+        - 4–6 hours per week
+        - 7 or more hours per week
+        - It depends on the test
+    validations:
+      required: true
+  - type: textarea
+    id: reporting
+    attributes:
+      label: How would you report a problem you find?
+      description: "Explain how you would describe what happened and provide steps to reproduce it. You do not need previous bug-reporting experience."
+    validations:
+      required: true
+  - type: textarea
+    id: extra
+    attributes:
+      label: Anything else you would like us to know?
+      description: "Optional. Do not include private contact details."
+    validations:
+      required: false
+  - type: checkboxes
+    id: agreement
+    attributes:
+      label: Application agreement
+      options:
+        - label: I understand that this application is publicly visible as a GitHub issue.
+          required: true
+        - label: I understand that beta access is limited and submitting this form does not automatically grant access.
+          required: true
+        - label: I agree to follow the testing instructions and report results honestly.
+          required: true
