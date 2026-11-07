@@ -27,7 +27,7 @@ CurseForge requires third-party API access to be requested and approved. See the
 
 The GitHub Actions workflow runs weekly, when the manifest changes, or when a maintainer starts it manually.
 
-For each mod in the manifest, it:
+Only available files tagged as stable releases (release type 1) and with an API file status of Approved (4) or Released (10) are considered for the latest-stable comparison.\n\nFor each mod in the manifest, it:
 1. Reads the exact installed CurseForge project ID and file ID.
 2. Retrieves the installed file details from CurseForge.
 3. Retrieves the latest stable files filtered to Minecraft 1.21.1 and NeoForge.

@@ -203,6 +203,7 @@ def fetch_latest_stable(api_key: str, project_id: int,
         item for item in files
         if item.get("isAvailable", True)
         and item.get("releaseType") == 1
+        and item.get("fileStatus") in (4, 10)
         and game_version in (item.get("gameVersions") or [])
     ]
     if not stable:
