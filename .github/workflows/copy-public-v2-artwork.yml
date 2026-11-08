@@ -1,0 +1,67 @@
+name: Copy full V2 artwork into the public project home
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  copy-artwork:
+    if: github.actor == 'alexth110987' && github.ref == 'refs/heads/main'
+    runs-on: ubuntu-24.04
+    timeout-minutes: 5
+    steps:
+      - name: Check out the public project home
+        uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          persist-credentials: true
+
+      - name: Copy and verify the exact V2 artwork
+        shell: bash
+        run: |
+          set -euo pipefail
+          mkdir -p assets
+          curl --fail --silent --show-error --location \
+            "https://raw.githubusercontent.com/Create-IronWoven/Create-IronWoven-Age-of-Industry-Beta/main/assets/Ironwoven_%20Age%20of%20Industry.v2.png" \
+            --output "assets/Ironwoven_ Age of Industry.v2.png"
+          actual="$(git hash-object -- "assets/Ironwoven_ Age of Industry.v2.png")"
+          expected="8e8ecf763cc970c70a82f22a83424a00c331b3cb"
+          if [[ "$actual" != "$expected" ]]; then
+            echo "::error::The downloaded image does not match the verified full V2 PNG."
+            exit 1
+          fi
+          echo "PASS: exact full V2 artwork verified ($actual)."
+
+      - name: Update public README references
+        shell: bash
+        run: |
+          python3 - <<'PY'
+          from pathlib import Path
+
+          readme = Path("README.md")
+          content = readme.read_text(encoding="utf-8")
+          old_image = "https://raw.githubusercontent.com/alexth110987/Create-IronWoven-Age-of-Industry-Beta/main/assets/Ironwoven_%20Age%20of%20Industry.v2.png"
+          new_image = "assets/Ironwoven_%20Age%20of%20Industry.v2.png"
+          old_beta = "https://github.com/alexth110987/Create-IronWoven-Age-of-Industry-Beta"
+          new_beta = "https://github.com/Create-IronWoven/Create-IronWoven-Age-of-Industry-Beta"
+
+          if old_image not in content:
+              raise SystemExit("The expected old V2 artwork reference was not found in README.md.")
+          if old_beta not in content:
+              raise SystemExit("The expected old Beta repository link was not found in README.md.")
+
+          content = content.replace(old_image, new_image).replace(old_beta, new_beta)
+          readme.write_text(content, encoding="utf-8")
+          PY
+
+      - name: Remove this one-use workflow and commit the public asset
+        shell: bash
+        run: |
+          set -euo pipefail
+          git rm .github/workflows/copy-public-v2-artwork.yml
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add README.md "assets/Ironwoven_ Age of Industry.v2.png"
+          git commit -m "docs: host full V2 artwork on public project home"
+          git push origin HEAD:main
