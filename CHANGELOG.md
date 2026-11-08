@@ -2,6 +2,11 @@
 
 This page records public, player-facing changes to Create IronWoven: Age of Industry. It is not a record of private development experiments or internal test logs.
 
+## Current pack version
+
+<!-- IRONWOVEN_AUTO_VERSION -->
+**Current Ironwoven pack version:** `v0.1.101.5` — release `0`, content revision `1`, `101` top-level server mod JARs, and `5` active accepted bug fixes.
+
 ## Public pack releases
 
 **No downloadable public pack release has been published yet.**
