@@ -18,6 +18,14 @@ The most useful help is clear, respectful player feedback:
 
 Do not use the general player issue tracker to submit a functional-test checklist result. Use the Beta hub for beta-specific testing; it is separate from ordinary player support.
 
+## Privacy and public issue submissions
+
+All issue forms in this repository create public GitHub issues. The title, your answers, comments, and attachments are visible as soon as you submit them. GitHub also displays your account as the issue author; a nickname does not anonymize that identity. Forms cannot screen content before its initial publication.
+
+Before submitting, inspect screenshots, logs, and files. Remove real names, personal contact details, account usernames from answers/evidence, passwords, access tokens, private server addresses, local paths, raw private configuration, and other sensitive details. Share only a short, relevant, sanitized log excerpt.
+
+If a credential may have been exposed, rotate or revoke it immediately. Editing or deleting the latest copy does not necessarily remove it from Git history.
+
 ## Please do not upload
 
 - Third-party mod JAR files.

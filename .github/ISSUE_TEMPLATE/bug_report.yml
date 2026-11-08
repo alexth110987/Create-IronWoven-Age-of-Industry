@@ -5,8 +5,10 @@ body:
   - type: markdown
     attributes:
       value: |
+        This issue is public as soon as you submit it. Its title, answers, comments, and attachments are visible. GitHub also shows your account as the issue author; a nickname does not hide it. The form cannot screen the first submission.
+        Remove real names, personal contact details, passwords, access tokens, private server addresses, local paths, and raw private configuration from answers, screenshots, and logs. Attach only a short, sanitized excerpt.
         Before submitting, check Known Issues and search existing issues.
-        Do not attach passwords, private IP addresses, personal data, or full world saves.
+        Do not attach full world saves.
   - type: input
     id: pack-version
     attributes:

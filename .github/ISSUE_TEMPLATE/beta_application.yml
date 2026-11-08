@@ -11,7 +11,7 @@ body:
         - Beta access is limited. Applications are reviewed manually.
         - Sending this application does not automatically grant access.
         - There is not yet a downloadable public beta release. If approved, the maintainer will explain the next available testing step.
-        - This application is a public GitHub issue. Your answers will be visible to anyone who can view this repository.
+        - This application is a public GitHub issue. Your answers and attachments are visible immediately. GitHub displays your account as the issue author; the form cannot hide that identity.
         - Do not include your real name, email address, phone number, passwords, private server IPs, or other personal/sensitive information.
   - type: textarea
     id: interest

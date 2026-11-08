@@ -5,8 +5,9 @@ body:
   - type: markdown
     attributes:
       value: |
+        This is a public GitHub issue. The title, answers, comments, and attachments are visible immediately. GitHub also displays your account as the issue author; a nickname does not hide it.
+        Do not include real names, contact details, passwords, access tokens, private server addresses, local paths, or private configuration. Inspect any screenshot or log before attaching it.
         There is no downloadable public release yet. If you are preparing for a future release, say so below.
-        Never share account passwords, access tokens, or private server details.
   - type: input
     id: pack-version
     attributes:
