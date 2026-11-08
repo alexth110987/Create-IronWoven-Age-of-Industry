@@ -2,11 +2,7 @@ name: Forward beta tester applications to private review
 
 on:
   issues:
-    types: [opened]
-  push:
-    branches: [main]
-    paths:
-      - ".github/workflows/forward-beta-applications.yml"
+    types: [opened, edited, reopened]
 
 permissions:
   issues: write
@@ -19,7 +15,7 @@ jobs:
   forward:
     if: >-
       github.event_name == 'issues' &&
-      startsWith(github.event.issue.title, '[Beta Application]: ')
+      startsWith(github.event.issue.title, '[Beta Application]:')
     runs-on: ubuntu-24.04
     timeout-minutes: 3
     steps:
