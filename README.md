@@ -1,6 +1,6 @@
 # Create IronWoven: Age of Industry
 
-![Create IronWoven: Age of Industry](https://raw.githubusercontent.com/alexth110987/Create-IronWoven-Age-of-Industry-Beta/main/assets/Ironwoven_%20Age%20of%20Industry.v2.png)
+![Create IronWoven: Age of Industry](assets/Ironwoven_%20Age%20of%20Industry.v2.png)
 
 **Build. Engineer. Explore. Transport. Automate.**
 
@@ -44,7 +44,7 @@ The current mod list will be published in [Mod information](MOD_INFORMATION.md).
 
 
 - **General player problems:** use the [main public issue tracker](https://github.com/alexth110987/Create-IronWoven-Age-of-Industry/issues).
-- **Beta test reports:** use the separate [beta-tester repository](https://github.com/alexth110987/Create-IronWoven-Age-of-Industry-Beta). Its functional-test form is for recording a specific test action, not ordinary player support.
+- **Beta test reports:** use the separate [beta-tester repository](https://github.com/Create-IronWoven/Create-IronWoven-Age-of-Industry-Beta). Its functional-test form is for recording a specific test action, not ordinary player support.
 - **Community chat:** the Discord invite will be added here once the public invite is ready.
 - **Project development:** internal research and development remain in the private repository and are not part of this public player hub.
 
@@ -53,7 +53,7 @@ Before opening an issue, please check [Known issues](KNOWN_ISSUES.md) and [Suppo
 ## Project links
 
 - [Main public project home](https://github.com/alexth110987/Create-IronWoven-Age-of-Industry)
-- [Beta-tester hub](https://github.com/alexth110987/Create-IronWoven-Age-of-Industry-Beta)
+- [Beta-tester hub](https://github.com/Create-IronWoven/Create-IronWoven-Age-of-Industry-Beta)
 - [CurseForge download information](GETTING_STARTED.md) — public download not available yet
 - [Support and troubleshooting](SUPPORT.md)
 - [Security and responsible reporting](SECURITY.md)
