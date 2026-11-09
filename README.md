@@ -44,7 +44,7 @@ The current mod list will be published in [Mod information](MOD_INFORMATION.md).
 
 ## Where to go for feedback
 
-**Beta access is restricted.** You need an invitation or an approved application. [Open the beta application template chooser](https://github.com/alexth110987/Create-IronWoven-Age-of-Industry/issues/new/choose). Applications are reviewed manually; submitting one does not automatically grant access.
+**Beta access is restricted.** You need an invitation or an approved application. [Open the beta application template chooser](https://github.com/alexth110987/Create-IronWoven-Age-of-Industry/issues/new/choose) and select **Beta tester application**. Applications are reviewed manually; submitting one does not automatically grant access.
 
 
 - **General player problems:** use the [main public issue tracker](https://github.com/alexth110987/Create-IronWoven-Age-of-Industry/issues).
