@@ -13,7 +13,7 @@ The most useful help is clear, respectful player feedback:
 ## Where to send feedback
 
 - **General player problems and suggestions:** use the [main public issue tracker](https://github.com/alexth110987/Create-IronWoven-Age-of-Industry/issues).
-- **Beta access applications:** use the [beta application form](https://github.com/alexth110987/Create-IronWoven-Age-of-Industry/issues/new?template=beta_application.yml) and select **Beta tester application**. Applications are reviewed manually and submitted as public GitHub issues; do not include personal contact details. Submission does not grant access automatically.
+- **Beta access applications:** use the [beta application template chooser](https://github.com/alexth110987/Create-IronWoven-Age-of-Industry/issues/new/choose) and select **Beta tester application**. Applications are reviewed manually and submitted as public GitHub issues; do not include personal contact details. Submission does not grant access automatically.
 - **A specific beta functional-test action:** use the [Functional Test Result form in the Beta hub](https://github.com/Create-IronWoven/Create-IronWoven-Age-of-Industry-Beta/issues/new?template=functional-test-report.yml). Submit one action per report and select Single-player, Multiplayer, or Both.
 
 Do not use the general player issue tracker to submit a functional-test checklist result. Use the Beta hub for beta-specific testing; it is separate from ordinary player support.
