@@ -1,5 +1,5 @@
 name: Beta tester application
-description: Apply for a place in the Create IronWoven: Age of Industry beta testing group.
+description: "Apply for a place in the Create IronWoven: Age of Industry beta testing group."
 title: "[Beta Application]: "
 body:
   - type: markdown
@@ -18,7 +18,7 @@ body:
     id: interest
     attributes:
       label: Why would you like to become a beta tester?
-      description: Tell us what interests you about Create IronWoven: Age of Industry.
+      description: "Tell us what interests you about Create IronWoven: Age of Industry."
       placeholder: I am interested in testing the Create machinery, trains, automation...
     validations:
       required: true
