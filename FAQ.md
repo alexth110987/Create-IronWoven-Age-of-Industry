@@ -26,7 +26,7 @@ Use the [main public issue tracker](https://github.com/alexth110987/Create-IronW
 
 ## How do I apply to become a beta tester?
 
-Beta access is limited. Complete the [beta tester application form](https://github.com/alexth110987/Create-IronWoven-Age-of-Industry/issues/new?template=beta_application.yml). Applications are reviewed manually, and submitting the form does not automatically grant access. The maintainer will respond to applications through GitHub.
+Beta access is limited. Open the [beta application choices] and select **Beta tester application**(https://github.com/alexth110987/Create-IronWoven-Age-of-Industry/issues/new/choose). Applications are reviewed manually and submitted as public GitHub issues; do not include personal contact details. Submitting an application does not automatically grant access. The maintainer will respond to applications through GitHub.
 
 There is not yet a downloadable public beta release.
 
