@@ -21,7 +21,7 @@ Create IronWoven: Age of Industry is an industrial and steampunk Minecraft modpa
 | Read project updates | [Changelog](CHANGELOG.md) |
 | Follow player-facing updates | [Project updates](PROJECT_UPDATES.md) |
 | Get help or troubleshoot a problem | [Support](SUPPORT.md) |
-| Report a bug or crash | [Open a player issue](https://github.com/alexth110987/Create-IronWoven-Age-of-Industry/issues/new/choose) |
+| Report a bug or crash | <a href="https://www.github.com/alexth110987/Create-IronWoven-Age-of-Industry/issues/new?template=bug_report.yml" target="_blank" rel="noopener noreferrer">Open a player issue</a> |
 | Apply to become a beta tester | <a href="https://www.github.com/alexth110987/Create-IronWoven-Age-of-Industry/issues/new?template=beta_application.yml" target="_blank" rel="noopener noreferrer">Open beta tester application</a> |
 
 ## Current project status
