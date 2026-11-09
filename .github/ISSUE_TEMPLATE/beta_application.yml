@@ -93,7 +93,7 @@ body:
     id: agreement
     attributes:
       label: Application agreement
-      description: Type "I understand and agree" to confirm all three points below.
+      description: Type "I understand and agree" to confirm that you understand the application conditions above.
       placeholder: I understand and agree.
     validations:
       required: true
