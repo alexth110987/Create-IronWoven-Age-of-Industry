@@ -1,5 +1,22 @@
 # Player feedback and contributions
 
+<!-- IRONWOVEN_CHRONOLOGY
+{
+  "record_id": "IRONWOVEN-MAIN-PUBLIC-0010",
+  "record_type": "public_feedback_routing_and_submission_privacy_policy",
+  "created_at": "2026-11-07T23:09:03Z",
+  "updated_at": "2026-11-09T19:50:42Z",
+  "verified_at": "2026-11-13T03:59:07Z",
+  "migrated_at": "2026-11-13T03:59:07Z",
+  "source_ref": [
+    "Public Main commit edb5aa2434d7a480e1c157f540c8f6c5b4b08651 first added CONTRIBUTING.md on 7 November 2026 at 23:09:03Z; commit 548b877d7ebb22735f7a8bfdc91b3f358b97258a last modified it on 9 November 2026 at 19:50:42Z. These are repository-file creation/update times only.",
+    "The public issue visibility/privacy warning, separate routing for general player feedback and beta functional-test results, and no-backports contribution boundary were checked against the current issue forms and public guidance on 13 November 2026."
+  ],
+  "timezone_display": "Europe/Amsterdam",
+  "chronology_status": "CURRENT"
+}
+-->
+
 Thank you for your interest in Create IronWoven: Age of Industry.
 
 ## How to help

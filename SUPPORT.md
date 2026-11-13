@@ -1,5 +1,21 @@
 # Support and troubleshooting
 
+<!-- IRONWOVEN_CHRONOLOGY
+{
+  "record_id": "IRONWOVEN-MAIN-PUBLIC-0011",
+  "record_type": "public_player_support_guidance",
+  "created_at": "2026-11-07T23:09:03Z",
+  "verified_at": "2026-11-13T03:59:07Z",
+  "migrated_at": "2026-11-13T03:59:07Z",
+  "source_ref": [
+    "Public Main commit edb5aa2434d7a480e1c157f540c8f6c5b4b08651 first added SUPPORT.md on 7 November 2026 at 23:09:03Z; this is repository-record creation time only.",
+    "The no-public-release boundary, player-report fields, privacy guidance, issue-form destinations, and separation from beta testing were checked against current public Main pages on 13 November 2026."
+  ],
+  "timezone_display": "Europe/Amsterdam",
+  "chronology_status": "CURRENT"
+}
+-->
+
 ## Is a public pack available?
 
 Not yet. There is no downloadable public release. Please wait for the official release instructions rather than installing old test files or combining mods from different sources.

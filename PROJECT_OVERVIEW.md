@@ -1,5 +1,23 @@
 # Project overview
 
+<!-- IRONWOVEN_CHRONOLOGY
+{
+  "record_id": "IRONWOVEN-MAIN-PUBLIC-0002",
+  "record_type": "public_project_identity_and_direction",
+  "created_at": "2026-11-07T23:09:03Z",
+  "updated_at": "2026-11-09T19:50:30Z",
+  "verified_at": "2026-11-13T03:59:07Z",
+  "migrated_at": "2026-11-13T03:59:07Z",
+  "source_ref": [
+    "Public Main commit edb5aa2434d7a480e1c157f540c8f6c5b4b08651 first added PROJECT_OVERVIEW.md on 7 November 2026 at 23:09:03Z; this is repository-record creation time only.",
+    "Public Main commit 59d6f53330644da942b25acb6e6bc4b2360a9fcc last modified PROJECT_OVERVIEW.md on 9 November 2026 at 19:50:30Z; this is repository-file update time only.",
+    "The current project name, industrial/steampunk focus, Create/Create Aeronautics direction, technical target, no-backports rule, current Windows/Linux support wording, and public release state were checked against the current public Main pages on 13 November 2026."
+  ],
+  "timezone_display": "Europe/Amsterdam",
+  "chronology_status": "CURRENT"
+}
+-->
+
 ## What is Create IronWoven?
 
 Create IronWoven: Age of Industry is an industrial and steampunk Minecraft modpack built around Create and Create Aeronautics.

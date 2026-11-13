@@ -1,5 +1,24 @@
 # Create IronWoven: Age of Industry
 
+<!-- IRONWOVEN_CHRONOLOGY
+{
+  "record_id": "IRONWOVEN-MAIN-PUBLIC-0001",
+  "record_type": "public_project_home_and_status",
+  "created_at": "2026-11-07T23:04:40Z",
+  "updated_at": "2026-11-09T20:59:10Z",
+  "verified_at": "2026-11-13T03:59:07Z",
+  "migrated_at": "2026-11-13T03:59:07Z",
+  "source_ref": [
+    "Public Main commit 2255bf25265d0bbcf767b6a1c354b34e72f29f7d first added README.md on 7 November 2026 at 23:04:40Z; this is repository-record creation time only.",
+    "Public Main commit b1c062d00d97b31026d0d2c7c7bb1011e71ea3cb last modified README.md on 9 November 2026 at 20:59:10Z; this is repository-file update time only.",
+    "The public project identity, industrial/steampunk direction, no-backports statement, player-navigation links, current generated version display, development/release status, Minecraft/NeoForge/Java targets, CurseForge-only source statement, and Windows/Linux support wording were checked against the current public Main pages on 13 November 2026.",
+    "The generated pack-version line remains generated output; this metadata does not calculate, replace, or authorize a version change."
+  ],
+  "timezone_display": "Europe/Amsterdam",
+  "chronology_status": "CURRENT"
+}
+-->
+
 ![Create IronWoven: Age of Industry](assets/Ironwoven_%20Age%20of%20Industry.v2.png)
 
 **Build. Engineer. Explore. Transport. Automate.**

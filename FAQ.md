@@ -1,5 +1,22 @@
 # Frequently asked questions
 
+<!-- IRONWOVEN_CHRONOLOGY
+{
+  "record_id": "IRONWOVEN-MAIN-PUBLIC-0009",
+  "record_type": "public_player_faq",
+  "created_at": "2026-11-07T23:09:03Z",
+  "updated_at": "2026-11-09T19:50:36Z",
+  "verified_at": "2026-11-13T03:59:07Z",
+  "migrated_at": "2026-11-13T03:59:07Z",
+  "source_ref": [
+    "Public Main commit edb5aa2434d7a480e1c157f540c8f6c5b4b08651 first added FAQ.md on 7 November 2026 at 23:09:03Z; commit 4a6c6c98811d48899d08565f90c2218c00209168 last modified it on 9 November 2026 at 19:50:36Z. These are repository-file creation/update times only.",
+    "The player-facing release availability, Minecraft/NeoForge/Java target, no-backports rule, CurseForge-only source, Linux testing status, and separation of player support from beta testing were checked on 13 November 2026."
+  ],
+  "timezone_display": "Europe/Amsterdam",
+  "chronology_status": "CURRENT"
+}
+-->
+
 ## Can I download the modpack now?
 
 Not yet. There is no downloadable public release. The official download link and installation steps will be published here when a release is approved.

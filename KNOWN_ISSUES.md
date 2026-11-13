@@ -1,5 +1,21 @@
 # Known issues
 
+<!-- IRONWOVEN_CHRONOLOGY
+{
+  "record_id": "IRONWOVEN-MAIN-PUBLIC-0008",
+  "record_type": "public_known_issues_pre_release_boundary",
+  "created_at": "2026-11-07T23:09:03Z",
+  "verified_at": "2026-11-13T03:59:07Z",
+  "migrated_at": "2026-11-13T03:59:07Z",
+  "source_ref": [
+    "Public Main commit edb5aa2434d7a480e1c157f540c8f6c5b4b08651 first added KNOWN_ISSUES.md on 7 November 2026 at 23:09:03Z; this is repository-record creation time only.",
+    "The page's pre-release boundary and separation of general player reports from beta-tester reports were checked against current README.md, SUPPORT.md, and the public release-status wording on 13 November 2026."
+  ],
+  "timezone_display": "Europe/Amsterdam",
+  "chronology_status": "CURRENT"
+}
+-->
+
 This page is for issues that affect a published player-facing pack release.
 
 ## Before the first release
