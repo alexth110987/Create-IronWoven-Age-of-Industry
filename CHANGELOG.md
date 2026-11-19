@@ -5,7 +5,7 @@ This page records public, player-facing changes to Create IronWoven: Age of Indu
 ## Current pack version
 
 <!-- IRONWOVEN_AUTO_VERSION -->
-**Current Ironwoven pack version:** `v0.1.102.5` — release `0`, content revision `1`, `101` top-level server mod JARs, and `5` active accepted bug fixes.
+**Current Ironwoven pack version:** `v0.1.102.5` — release `0`, content revision `1`, `102` matching screenshot-listed mod JARs (after documented exclusions), and `5` active accepted bug fixes.
 
 <!-- IRONWOVEN_CHRONOLOGY
 {
