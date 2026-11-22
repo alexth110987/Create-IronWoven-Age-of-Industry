@@ -63,11 +63,11 @@ The current mod list will be published in [Mod information](MOD_INFORMATION.md).
 
 ## Where to go for feedback
 
-**Beta access is restricted.** You need an invitation or an approved application. <a href="https://www.github.com/alexth110987/Create-IronWoven-Age-of-Industry/issues/new?template=beta_application.yml" target="_blank" rel="noopener noreferrer">Open the beta tester application form</a>. Applications are reviewed manually; submitting one does not automatically grant access.
+**Beta access is restricted.** You need an invitation or an approved application. <a href="https://www.github.com/alexth110987/Create-IronWoven-Age-of-Industry/issues/new?template=beta_application.yml" target="_blank" rel="noopener noreferrer">Open the beta tester application form</a>. Applications are reviewed manually; submitting one does not automatically grant access. Approved testers receive a GitHub invitation to the private Beta repository. Accept the invitation while signed in to the GitHub account used for the application. The approval message includes the repository link; after accepting, you can also find the repository under your GitHub profile's **Your repositories** page.
 
 
 - **General player problems:** use the [main public issue tracker](https://github.com/alexth110987/Create-IronWoven-Age-of-Industry/issues).
-- **Beta test reports:** use the separate [beta-tester repository](https://github.com/Create-IronWoven/Create-IronWoven-Age-of-Industry-Beta). Its functional-test form is for recording a specific test action, not ordinary player support.
+- **Beta test reports:** approved testers can access the private Beta repository after accepting their GitHub invitation. Use its functional-test form to record a specific test action, not ordinary player support. The repository link is provided in the approval message.
 - **Community chat:** the Discord invite will be added here once the public invite is ready.
 - **Project development:** internal research and development remain in the private repository and are not part of this public player hub.
 
@@ -76,7 +76,7 @@ Before opening an issue, please check [Known issues](KNOWN_ISSUES.md) and [Suppo
 ## Project links
 
 - [Main public project home](https://github.com/alexth110987/Create-IronWoven-Age-of-Industry)
-- [Beta-tester hub](https://github.com/Create-IronWoven/Create-IronWoven-Age-of-Industry-Beta)
+- **Beta-tester hub:** private; available only to approved testers after they accept their GitHub invitation.
 - [CurseForge download information](GETTING_STARTED.md) — public download not available yet
 - [Support and troubleshooting](SUPPORT.md)
 - [Security and responsible reporting](SECURITY.md)
