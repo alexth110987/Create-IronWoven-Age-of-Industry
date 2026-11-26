@@ -18,11 +18,9 @@
 
 This page is for issues that affect a published player-facing pack release.
 
-## Before the first release
+## Current Beta build
 
-There is no downloadable public release yet, so there is no public release build to attach a confirmed player-facing issue list to.
-
-When a release becomes available, confirmed issues will be listed here with:
+The official CurseForge page currently lists **v0.1.124.5 Beta** (client and server pack). This page will list confirmed player-facing issues for that published Beta, with:
 - The affected pack version.
 - What the player may experience.
 - A workaround, when one is known.
@@ -33,3 +31,14 @@ When a release becomes available, confirmed issues will be listed here with:
 Check the [main issue tracker](https://github.com/alexth110987/Create-IronWoven-Age-of-Industry/issues) before opening a new report.
 
 Beta testers should use the separate [beta-tester hub](https://github.com/alexth110987/Create-IronWoven-Age-of-Industry-Beta) for test-specific reports.
+
+
+<!-- IRONWOVEN_CHRONOLOGY
+{
+  "record_id": "IRONWOVEN-MAIN-CURSEFORGE-BETA-AVAILABILITY-20261126-0005",
+  "record_type": "public_player_download_availability_verified",
+  "created_at": "2026-11-26", "updated_at": "2026-11-26", "verified_at": "2026-11-26", "decision_at": "unknown",
+  "source_ref": ["Official CurseForge Project ID 1825081 page re-checked 26 November 2026: client and server-pack files v0.1.124.5 Beta published 25 November 2026: https://www.curseforge.com/minecraft/modpacks/create-ironwoven-age-of-industry.","The page confirms file availability only. It does not establish feature completion or internal release-checklist PASS. Private generated development version v0.2.124.5 was not listed as the published file during this check."],
+  "timezone_display": "Europe/Amsterdam", "chronology_status": "CURRENT"
+}
+-->

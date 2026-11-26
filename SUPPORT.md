@@ -18,11 +18,11 @@
 
 ## Is a public pack available?
 
-Not yet. There is no downloadable public release. Please wait for the official release instructions rather than installing old test files or combining mods from different sources.
+Yes. The official [CurseForge project page](https://www.curseforge.com/minecraft/modpacks/create-ironwoven-age-of-industry) lists the **v0.1.124.5 Beta** client and server pack. Install only from that page and keep client/server file versions matched. Do not use old test files or unofficial mirrors.
 
 ## Before opening a support issue
 
-When a public release is available:
+For the currently listed Beta build:
 
 1. Check that you are using the exact Minecraft, NeoForge, and pack versions listed for that release.
 2. Make sure your client and server use matching pack versions.
@@ -57,3 +57,14 @@ Do not upload full world saves, private backups, account data, or third-party mo
 - [Feature suggestion](https://github.com/alexth110987/Create-IronWoven-Age-of-Industry/issues/new?template=feature_suggestion.yml)
 - [Beta-tester hub](https://github.com/alexth110987/Create-IronWoven-Age-of-Industry-Beta)
 - Discord invite: to be added when the public invite is ready.
+
+
+<!-- IRONWOVEN_CHRONOLOGY
+{
+  "record_id": "IRONWOVEN-MAIN-CURSEFORGE-BETA-AVAILABILITY-20261126-0007",
+  "record_type": "public_player_download_availability_verified",
+  "created_at": "2026-11-26", "updated_at": "2026-11-26", "verified_at": "2026-11-26", "decision_at": "unknown",
+  "source_ref": ["Official CurseForge Project ID 1825081 page re-checked 26 November 2026: client and server-pack files v0.1.124.5 Beta published 25 November 2026: https://www.curseforge.com/minecraft/modpacks/create-ironwoven-age-of-industry.","The page confirms file availability only. It does not establish feature completion or internal release-checklist PASS. Private generated development version v0.2.124.5 was not listed as the published file during this check."],
+  "timezone_display": "Europe/Amsterdam", "chronology_status": "CURRENT"
+}
+-->

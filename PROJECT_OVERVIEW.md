@@ -51,6 +51,17 @@ Windows is the current development and test environment. Linux server support is
 
 ## Project status
 
-The project is in development. There is no downloadable public release yet. The public pages will be updated as player-facing information and release details become available.
+The project is in Beta. The official [CurseForge page](https://www.curseforge.com/minecraft/modpacks/create-ironwoven-age-of-industry) currently lists client and server-pack files **v0.1.124.5 Beta** (published 25 November 2026). Use CurseForge as the only download source. Beta-stage feature validation is still ongoing.
 
 Use the [main issue tracker](https://github.com/alexth110987/Create-IronWoven-Age-of-Industry/issues) for ordinary player feedback. To request beta access, open the [beta tester application form](https://github.com/alexth110987/Create-IronWoven-Age-of-Industry/issues/new?template=beta_application.yml). Approved testers will use the separate [beta-tester hub](https://github.com/alexth110987/Create-IronWoven-Age-of-Industry-Beta).
+
+
+<!-- IRONWOVEN_CHRONOLOGY
+{
+  "record_id": "IRONWOVEN-MAIN-CURSEFORGE-BETA-AVAILABILITY-20261126-0003",
+  "record_type": "public_player_download_availability_verified",
+  "created_at": "2026-11-26", "updated_at": "2026-11-26", "verified_at": "2026-11-26", "decision_at": "unknown",
+  "source_ref": ["Official CurseForge Project ID 1825081 page re-checked 26 November 2026: client and server-pack files v0.1.124.5 Beta published 25 November 2026: https://www.curseforge.com/minecraft/modpacks/create-ironwoven-age-of-industry.","The page confirms file availability only. It does not establish feature completion or internal release-checklist PASS. Private generated development version v0.2.124.5 was not listed as the published file during this check."],
+  "timezone_display": "Europe/Amsterdam", "chronology_status": "CURRENT"
+}
+-->

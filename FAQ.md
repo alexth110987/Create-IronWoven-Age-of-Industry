@@ -19,11 +19,11 @@
 
 ## Can I download the modpack now?
 
-Not yet. There is no downloadable public release. The official download link and installation steps will be published here when a release is approved.
+Yes. The official [CurseForge project page](https://www.curseforge.com/minecraft/modpacks/create-ironwoven-age-of-industry) currently lists client and server-pack files **v0.1.124.5 Beta**, published 25 November 2026. Install the client through CurseForge; select the matching Server Pack file for a dedicated server.
 
 ## Which Minecraft version does the project target?
 
-The current target is Minecraft 1.21.1 with NeoForge 21.1.265 and Java 21. Check the release notes again when a public build becomes available.
+The current target is Minecraft 1.21.1 with NeoForge 21.1.265 and Java 21. The currently listed Beta file targets this environment; always check the exact CurseForge file details before installing.
 
 ## Does Create IronWoven support older Minecraft versions?
 
@@ -31,7 +31,7 @@ The current target is Minecraft 1.21.1 with NeoForge 21.1.265 and Java 21. Check
 
 ## Where will I get the mods?
 
-CurseForge is the project's only approved mod source. Use the official pack download and its manifest when the public release is available.
+CurseForge is the project's only approved mod source. Use the official [CurseForge pack page](https://www.curseforge.com/minecraft/modpacks/create-ironwoven-age-of-industry) and its selected file. CurseForge is the only approved mod source.
 
 ## Can I use the pack on a Linux server?
 
@@ -45,7 +45,7 @@ Use the [main public issue tracker](https://github.com/alexth110987/Create-IronW
 
 Beta access is limited. Open the [beta tester application form](https://github.com/alexth110987/Create-IronWoven-Age-of-Industry/issues/new?template=beta_application.yml) and complete the application. Applications are reviewed manually and submitted as public GitHub issues; do not include personal contact details. Submitting an application does not automatically grant access. The maintainer will respond to applications through GitHub.
 
-There is not yet a downloadable public beta release.
+A public Beta file is available on CurseForge. Beta tester access to this private repository remains invitation/approval-based.
 
 ## How is beta testing different from normal player support?
 
@@ -58,3 +58,14 @@ The public Discord invite will be added to this page once the invite is ready.
 ## Will a newer CurseForge mod file automatically be installed?
 
 No. The public mod information page may show when a newer compatible-looking file exists, but that is only a notice for review. It does not mean the file has been tested or approved. Modpack updates require a separate compatibility review and release decision.
+
+
+<!-- IRONWOVEN_CHRONOLOGY
+{
+  "record_id": "IRONWOVEN-MAIN-CURSEFORGE-BETA-AVAILABILITY-20261126-0004",
+  "record_type": "public_player_download_availability_verified",
+  "created_at": "2026-11-26", "updated_at": "2026-11-26", "verified_at": "2026-11-26", "decision_at": "unknown",
+  "source_ref": ["Official CurseForge Project ID 1825081 page re-checked 26 November 2026: client and server-pack files v0.1.124.5 Beta published 25 November 2026: https://www.curseforge.com/minecraft/modpacks/create-ironwoven-age-of-industry.","The page confirms file availability only. It does not establish feature completion or internal release-checklist PASS. Private generated development version v0.2.124.5 was not listed as the published file during this check."],
+  "timezone_display": "Europe/Amsterdam", "chronology_status": "CURRENT"
+}
+-->

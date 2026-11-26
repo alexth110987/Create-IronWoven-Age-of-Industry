@@ -19,15 +19,20 @@ This page records public, player-facing changes to Create IronWoven: Age of Indu
     "The generated version display was read as public output only; no version calculation, package build, release action, or approval was performed."
   ],
   "timezone_display": "Europe/Amsterdam",
-  "chronology_status": "CURRENT"
+  "chronology_status": "HISTORICAL",
+  "superseded_by": "IRONWOVEN-MAIN-CURSEFORGE-BETA-AVAILABILITY-20261126-0002"
 }
 -->
 
-## Public pack releases
+## Published CurseForge Beta
 
-**No downloadable public pack release has been published yet.**
+### v0.1.124.5 Beta — 25 November 2026
 
-When the first release is approved, its version, release date, main changes, and important upgrade notes will be added here.
+- The official CurseForge project lists the client modpack and matching dedicated-server pack for Minecraft 1.21.1 / NeoForge.
+- Download and install from the [official CurseForge project page](https://www.curseforge.com/minecraft/modpacks/create-ironwoven-age-of-industry).
+- This is a Beta build: individual feature validation and compatibility testing remain ongoing. A routine startup/smoke result is not a claim that every feature is complete.
+
+**Version distinction:** the generated current repository version is v0.2.124.5, but the file verified as published on CurseForge during this update is v0.1.124.5 Beta. Use the version shown on the official file page.
 
 <!-- IRONWOVEN_CHRONOLOGY
 {
@@ -53,3 +58,14 @@ When the first release is approved, its version, release date, main changes, and
 - Added project overview, getting-started guidance, FAQ, support information, and player issue forms.
 - Added the planned automated CurseForge mod-information catalogue.
 - Kept beta functional testing in the separate beta-tester repository.
+
+
+<!-- IRONWOVEN_CHRONOLOGY
+{
+  "record_id": "IRONWOVEN-MAIN-CURSEFORGE-BETA-AVAILABILITY-20261126-0002",
+  "record_type": "public_player_download_availability_verified",
+  "created_at": "2026-11-26", "updated_at": "2026-11-26", "verified_at": "2026-11-26", "decision_at": "unknown",
+  "source_ref": ["Official CurseForge Project ID 1825081 page re-checked 26 November 2026: client and server-pack files v0.1.124.5 Beta published 25 November 2026: https://www.curseforge.com/minecraft/modpacks/create-ironwoven-age-of-industry.","The page confirms file availability only. It does not establish feature completion or internal release-checklist PASS. Private generated development version v0.2.124.5 was not listed as the published file during this check."],
+  "timezone_display": "Europe/Amsterdam", "chronology_status": "CURRENT"
+}
+-->

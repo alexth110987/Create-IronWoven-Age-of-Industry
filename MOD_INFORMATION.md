@@ -19,7 +19,7 @@
 
 ## Current status
 
-The public mod catalogue is not populated yet. The pack is still in development and there is no downloadable public release or approved pack manifest to use as the source of truth.
+The public mod catalogue is not populated yet. A downloadable **v0.1.124.5 Beta** client file and matching server pack are listed on the [official CurseForge project page](https://www.curseforge.com/minecraft/modpacks/create-ironwoven-age-of-industry). This page still requires the exact approved manifest before it can publish a detailed per-mod inventory; the live release listing does not replace that manifest.
 
 The public mod list will be shown here when it can be generated from the exact approved CurseForge pack manifest. This avoids guessing from screenshots, old test folders, or mod counts.
 
@@ -40,3 +40,14 @@ A newer CurseForge file is **not automatically safe or compatible** with the mod
 This page will only report that a newer file exists. The maintainer must still review its dependencies, loader support, client/server requirements, conflicts, and compatibility with the rest of the pack. No mod will be installed or updated automatically by this catalogue.
 
 The catalogue is updated by private project maintenance automation. Only the finished player-facing information is published here.
+
+
+<!-- IRONWOVEN_CHRONOLOGY
+{
+  "record_id": "IRONWOVEN-MAIN-CURSEFORGE-BETA-AVAILABILITY-20261126-0006",
+  "record_type": "public_player_download_availability_verified",
+  "created_at": "2026-11-26", "updated_at": "2026-11-26", "verified_at": "2026-11-26", "decision_at": "unknown",
+  "source_ref": ["Official CurseForge Project ID 1825081 page re-checked 26 November 2026: client and server-pack files v0.1.124.5 Beta published 25 November 2026: https://www.curseforge.com/minecraft/modpacks/create-ironwoven-age-of-industry.","The page confirms file availability only. It does not establish feature completion or internal release-checklist PASS. Private generated development version v0.2.124.5 was not listed as the published file during this check."],
+  "timezone_display": "Europe/Amsterdam", "chronology_status": "CURRENT"
+}
+-->
