@@ -19,4 +19,6 @@
 This page contains reviewed, player-facing announcements and information for the general IronWoven player community. It does not contain beta-only testing instructions or private development notes.
 
 <!-- IRONWOVEN_PUBLICATION_INDEX:START -->
+- **2026-11-26** — [CurseForge Beta downloads are available](project-updates/curseforge-beta-availability-2026-11-26.md) — Confirms the current public CurseForge Beta client and server downloads and the correct version source.
+
 <!-- IRONWOVEN_PUBLICATION_INDEX:END -->
