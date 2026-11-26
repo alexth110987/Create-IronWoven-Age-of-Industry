@@ -62,8 +62,15 @@ Read [Support and troubleshooting](SUPPORT.md), check [Known issues](KNOWN_ISSUE
 {
   "record_id": "IRONWOVEN-MAIN-CURSEFORGE-BETA-AVAILABILITY-20261126-0001",
   "record_type": "public_player_download_availability_verified",
-  "created_at": "2026-11-26", "updated_at": "2026-11-26", "verified_at": "2026-11-26", "decision_at": "unknown",
-  "source_ref": ["Official CurseForge Project ID 1825081 page re-checked 26 November 2026: client and server-pack files v0.1.124.5 Beta published 25 November 2026: https://www.curseforge.com/minecraft/modpacks/create-ironwoven-age-of-industry.","The page confirms file availability only. It does not establish feature completion or internal release-checklist PASS. Private generated development version v0.2.124.5 was not listed as the published file during this check."],
-  "timezone_display": "Europe/Amsterdam", "chronology_status": "CURRENT"
+  "created_at": "unknown",
+  "updated_at": "unknown",
+  "verified_at": "unknown",
+  "decision_at": "unknown",
+  "source_ref": [
+    "Official CurseForge Project ID 1825081 page re-checked 26 November 2026: client and server-pack files v0.1.124.5 Beta published 25 November 2026: https://www.curseforge.com/minecraft/modpacks/create-ironwoven-age-of-industry.",
+    "The page confirms file availability only. It does not establish feature completion or internal release-checklist PASS. Private generated development version v0.2.124.5 was not listed as the published file during this check."
+  ],
+  "timezone_display": "Europe/Amsterdam",
+  "chronology_status": "INCOMPLETE"
 }
 -->
