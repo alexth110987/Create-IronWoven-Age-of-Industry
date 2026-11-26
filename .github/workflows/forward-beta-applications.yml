@@ -41,7 +41,7 @@ jobs:
           if not dispatch_url:
               sys.exit("Missing Actions secret IRONWOVEN_PRIVATE_DISPATCH_URL.")
           parsed = urlsplit(dispatch_url)
-          expected = "/repos/alexth110987/Create-IronWoven-Age-of-Industry-Private/dispatches"
+          expected = "/repos/Create-IronWoven/Create-IronWoven-Age-of-Industry-Private/dispatches"
           if parsed.scheme != "https" or parsed.netloc != "api.github.com" or parsed.query or parsed.fragment or parsed.path != expected:
               sys.exit("Private dispatch URL does not point to the expected private repository.")
 
