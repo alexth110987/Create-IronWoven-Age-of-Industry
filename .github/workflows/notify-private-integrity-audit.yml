@@ -27,7 +27,7 @@ jobs:
           import urllib.error
           import urllib.request
 
-          expected = "https://api.github.com/repos/alexth110987/Create-IronWoven-Age-of-Industry-Private/dispatches"
+          expected = "https://api.github.com/repos/Create-IronWoven/Create-IronWoven-Age-of-Industry-Private/dispatches"
           token = os.environ.get("PRIVATE_DISPATCH_TOKEN", "")
           endpoint = os.environ.get("PRIVATE_DISPATCH_URL", "")
           if not token:
