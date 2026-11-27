@@ -46,7 +46,7 @@ Create IronWoven: Age of Industry is an industrial and steampunk Minecraft modpa
 ## Current project status
 
 <!-- IRONWOVEN_AUTO_VERSION -->
-**Current Ironwoven pack version:** `v0.2.124.5` — release `0`, content revision `2`, `124` matching screenshot-listed mod JARs (after documented exclusions), and `5` active accepted bug fixes.
+**Current Ironwoven pack version:** `v0.2.133.5` — release `0`, content revision `2`, `133` matching screenshot-listed mod JARs (after documented exclusions), and `5` active accepted bug fixes.
 
 **Status: Public Beta available.** The official [CurseForge project](https://www.curseforge.com/minecraft/modpacks/create-ironwoven-age-of-industry) currently lists client and dedicated-server pack files **v0.1.124.5 Beta**, published 25 November 2026. Download from CurseForge and select the matching file.
 
